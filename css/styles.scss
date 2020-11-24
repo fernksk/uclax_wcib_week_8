@@ -1,6 +1,23 @@
+//<---hero--->
+
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+}
+
+.stripee{
   background-color: #0cb3f8;
+  position: relative;
+}
+
+.cover-container.stripee:before {
+  content:"";
+  background-color:#0cb3f8;
+  position: absolute;
+  height: 100%;
+  width: 3410px;
+  left: -2000px;
+  z-index: -1;
 }
 
 h1 {
@@ -11,9 +28,14 @@ h1 {
 }
 
 img.iphone{
+  position: absolute;
   float: right;
-	margin: auto;
-	padding-top: 44px;
+  padding-top: 44px;
+  right: 0%;
+}
+
+.col-sm{
+  position: relative;
 }
 
 .col-8{
@@ -21,19 +43,11 @@ img.iphone{
   background-color: #fff;
   height: 100px;
 }
-.col-8 span{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
 
-.hero-cont{
-  color: #fff;
-  position: relative;
-  font-size: 21px;
-  font-weight: 400;
-  padding-top: 15px;
-  padding-right: 170px;
+.col-8 span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .new{
@@ -41,23 +55,33 @@ img.iphone{
   color: #9c9c9c;
   font-size: 13px;
   font-weight: 400;
-  padding-top: 23px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 3px;
   padding-left: 290px;
   bottom: 0;
 }
 
+.spacebtn{
+  float:left;
+  margin-right:40px;
+}
+
 .btn-outline-light{
-  background: url("../images/apple.png") 5px 5px no-repeat;
+  background-image: url("../images/apple.png");
+  background-repeat: no-repeat;
+  background-position: calc(20% - 10px) center;
+  padding-top: 13px;
   width: 120px;
+  height: 40px;
   font-size: 10px;
   font-weight: 700;
   border-radius: 50px;
 }
 
 .btn-outline-light:hover{
-  background: url("../images/apple_.png") 5px 5px no-repeat;
+  background-image: url("../images/apple_.png");
   background-color: #fff;
+  box-shadow: 0px 8px 15px #000;
 }
 
 .btn-sm{
@@ -73,13 +97,26 @@ img.iphone{
   display: inline-block;
 }
 
-
 .cover-container{
-font-family: 'Montserrat', sans-serif;
-font-weight: 700;
-padding-top: 62px;
-padding-left: 280px;
-padding-right: 290px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding-top: 62px;
+  padding-left: 280px;
+  padding-right: 290px;
+}
+
+.learn{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 10px;
+  padding-top: 13px;
+  padding-bottom: 3px;
+  border-bottom: .25rem solid transparent;
+}
+
+.learn:hover{
+  border-bottom-color: #fff;
 }
 
 .masthead {
@@ -97,6 +134,7 @@ padding-right: 290px;
   color: #fff;
   font-size: 12px;
   font-weight: 700;
+  padding-bottom: 3px;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -124,8 +162,9 @@ padding-right: 290px;
   }
 }
 
+//<---content--->
+
 h2{
-  background-color: #f5f4f4;
   text-align: center;
   font-size: 44px;
   font-weight: 700;
@@ -134,12 +173,228 @@ h2{
 }
 
 .big{
-  background-color: #f5f4f4;
-  text-align: center;
   color: #9c9c9c;
-  font-size: 15.99px;
+  text-align: center;
+  font-size: 16px;
   font-weight: 400;
   padding-top: 15px;
-  padding-left: 600px;
-  padding-right: 600px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.row.con{
+  height: 495px;
+}
+
+.hero-cont{
+  color: #fff;
+  position: relative;
+  font-size: 21px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-right: 170px;
+}
+
+.stripe{
+  background-color: #f5f4f4;
+  position: relative;
+}
+
+.container.stripe:before {
+  content:"";
+  background-color:#f5f4f4;
+  position: absolute;
+  height: 100%;
+  width: 3410px;
+  left: -2000px;
+  z-index: -1;
+}
+
+.title{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.concon{
+  color: #9c9c9c;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+img.iphonecon{
+  position: absolute;
+  margin: auto;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.colcon{
+  text-align: center;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+//<---pricing--->
+
+h2.price {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+
+.stripie{
+  background-color: #222222;
+  position: relative;
+}
+
+.container.stripie:before {
+  content:"";
+  background-color:#222222;
+  position: absolute;
+  height: 100%;
+  width: 3410px;
+  left: -2000px;
+  z-index: -1;
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.card-title{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card-title.mid{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card.mid{
+  background-color: #1b8bf9;
+}
+
+.btn-outline-primary{
+  color: #000;
+  width: 120px;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 50px;
+  border-width: 2px;
+}
+
+.btn-outline-primary:hover{
+  color: #fff;
+  box-shadow: 0px 8px 15px #1b8bf9;
+}
+
+.btn-outline-primary.mid{
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+.btn-outline-primary.mid:hover{
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0px 8px 15px #000;
+}
+
+p.pay{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+p.month{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card-text{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p.cost{
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+p.monthly{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card-textlist{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+//<---sunscribe--->
+.thumbnail {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+img.bg{
+  position: absolute;
+}
+
+.container.thumbcap{
+  z-index: 100;
+}
+
+.caption {
+  color: #fff;
+  right: 0;
+  left: 0;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+.cap{
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.form-inline{
+  justify-content: center;
+}
+
+.form-control{
+  opacity: 0.3;
+  border: 1px solid transparent;
+}
+
+.btn-secondary{
+  color: #000;
+  background-color: #fff;
+  width: 120px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 700;
 }
