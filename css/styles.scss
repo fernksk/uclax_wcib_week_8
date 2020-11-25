@@ -201,9 +201,15 @@ h2{
   font-weight: 400;
 }
 
-img.iphonecon{
+.col-5{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphonecon{
   text-align: center;
-        display: block;
+  display: block;
   margin: auto;
   padding-top: 20px;
 }
@@ -386,18 +392,18 @@ p.monthly{
 /* footer */
 
 footer{
-height: 233px;
-padding-left: 15%;
-padding-right: 15%;
-margin-right: 3%;
+  height: 233px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-right: 3%;
 }
 
 
 a.footernav{
   color: #000;
-font-size: 11px;
- font-weight: 700;
- margin-right: 5%;
+  font-size: 11px;
+  font-weight: 700;
+  margin-right: 5%;
 }
 
 .about{
@@ -413,8 +419,8 @@ font-size: 11px;
 .copyright{
   color: #000;
   font-size: 10px;
-font-weight: 400;
-margin-left: 10%;
-line-height: 17px;
-padding-top: 35%;
+  font-weight: 400;
+  margin-left: 10%;
+  line-height: 17px;
+  padding-top: 35%;
 }

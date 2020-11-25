@@ -168,7 +168,12 @@ h2 {
   font-size: 13px;
   font-weight: 400; }
 
-img.iphonecon {
+.col-5 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.iphonecon {
   text-align: center;
   display: block;
   margin: auto;
