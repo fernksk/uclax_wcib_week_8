@@ -21,8 +21,8 @@
 
 <body>
 
-  <div class="cover-container stripee d-flex w-100 h-100 flex-column">
-    <header class="masthead mb-auto">
+  <div class="cover-row stripee d-flex w-100 h-100 flex-column">
+    <header class="masthead">
       <div class="inner">
         <p class="masthead-brand"><img src="images/wlogo.png" alt="logo white">&nbsp;Awesome App</p>
         <nav class="nav nav-masthead">
@@ -34,9 +34,10 @@
         </nav>
       </div>
     </header>
+  </div>
 
-    <div class="row">
-      <div class="col-md">
+  <div class="row stripee">
+<div class="col-md-6">
         <h1>Make it easy</h1>
         <p class="hero-cont">See locations and get easy access to messaging, check-in requests and more from your home screen.</p>
         <br>
@@ -44,7 +45,7 @@
         <br>
         <br>
         <a class="btn btn-outline-light btn-lg spacebtn">&emsp; DOWNLOAD</a>
-        <nav class="learn spacebtn" href="#" title="">LEARN MORE</nav>
+        <nav class="learn spacebtn" title="">LEARN MORE</nav>
         <br>
         <br>
         <br>
@@ -52,13 +53,13 @@
         <br>
       </div>
 
-      <div class="col-sm">
+      <div class="col-md-4 feat justify-content-center">
         <img src="images/iphone.png" alt="iphone image" class="iphone">
       </div>
 
     </div>
-  </div>
-  <div class="new">
+
+    <div class="new">
     <a class="btn btn-primary btn-sm">NEW</a>
     <p class="ui">&emsp;&emsp;Get new revolution UI kit for your startup</p>
   </div>
@@ -66,10 +67,12 @@
 
   <div class="container stripe">
     <h2>The New Big Thing</h2>
-    <p class="big">Motivating others leads to success whereas inspiring others leads to the most grand greatness.</p>
+    <div class="big">
+      <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness.</p>
+    </div>
     <br>
     <br>
-    <div class="row con">
+    <div class="row con flex-column-reverse flex-md-row">
       <div class="col">
         <div class="colcon">
           <br>
@@ -114,16 +117,13 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
 
-  <div class="new">
-    <p>&emsp;</p>
-    <p>&emsp;</p>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
 
 
   <div class="container stripie">
@@ -190,25 +190,58 @@
     <br>
   </div>
 
-  <div class="thumbnail">
-    <img src="images/bg.jpg" alt="background image" class="bg">
+  <div class="thumbnail justify-content-center">
     <div class="container thumbcap text-center">
       <h2 class="caption">Subscribe now</h2>
       <p class="cap">The purpose of a good education is to show you that there are three sides to a two-sided story.</p>
-      <br>
-      <form class="form-inline">
-        <input class="form-control col-md-4" type="text" placeholder="Your email" aria-label="Your email">
+      <div class="form-inline">
+        <input class="form-control email col-md-4" type="text" placeholder="Your email" aria-label="Your email">
         <button class="btn btn-secondary" type="submit">SEND</button>
-      </form>
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
     </div>
   </div>
-</div>
+
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid">
+    <div class="row align-items-start">
+      <div class="col">
+        <img src="images/blogo.png" alt="black logo">
+      </div>
+
+      <div class="col-6 text-center">
+        <a href="#" class="footernav">ABOUT</a>
+        <a href="#" class="footernav">TOUR</a>
+        <a href="#" class="footernav">PRICING</a>
+        <a href="#" class="footernav">BLOG</a>
+        <a href="#" class="footernav">CONTACT</a>
+      </div>
+
+      <div class="col-3 social text-right">
+        <img src="images/twitter.png" alt="twitter" class="social">
+        <img src="images/fb.png" alt="facebook" class="social">
+        <img src="images/google.png" alt="google" class="social">
+        <div class="col-12 copyright">
+          © AWESOME APP COMPANY
+        </div>
+      </div>
+
+      <div class="row about">
+        <div class="col-4 about">
+          We are an innovative web design and marketing company that specializes in web development, software development and digital marketing.
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-
-
-</div>
+</footer>
 
 </body>
 
