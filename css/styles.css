@@ -26,8 +26,7 @@ img.iphone {
 @media (min-width: 576px) {
   img.iphone {
     float: right;
-    right: 0%;
-    margin-left: 300px; } }
+    right: 0%; } }
 
 .col-sm-4 {
   height: 40px;
