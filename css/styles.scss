@@ -24,11 +24,18 @@ h1 {
   padding-top: 150px;
 }
 
+
 img.iphone{
-  float: right;
   padding-top: 44px;
-  right: 0%;
   margin-bottom: -30px;
+}
+
+@media (min-width: 576px) {
+	img.iphone{
+    float: right;
+	  right: 0%;
+    margin-left: 300px;
+  }
 }
 
 .col-sm-4{
